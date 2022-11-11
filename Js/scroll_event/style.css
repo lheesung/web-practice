@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+div{
+    margin-bottom: 1000px;
+    opacity: 0;
+    transition: all 2s;
+}
+
+img{
+    width: 700px;
+    height: inherit;
+}

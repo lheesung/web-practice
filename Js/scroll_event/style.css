@@ -7,10 +7,17 @@ body{
 div{
     margin-bottom: 1000px;
     opacity: 0;
-    transition: all 2s;
+    transition: all 3s;
+    transform: translateY(-10px);
 }
 
 img{
     width: 700px;
     height: inherit;
+}
+button{
+    border-style: none;
+    width: 100px;
+    height: inherit;
+    margin-bottom: 100px;
 }

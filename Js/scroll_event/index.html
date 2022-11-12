@@ -9,7 +9,10 @@
     
 </head>
 <body>
-    <div><img src="./images/img1.jpeg"></div>
+    <button onClick="window.location.reload()">reload</button>
+    <div>
+        <img src="./images/img1.jpeg">
+    </div>
     <div><img src="./images/img2.jpeg"></div>
     <div><img src="./images/img3.jpeg"></div>
     <script>
@@ -17,6 +20,7 @@
             a.forEach((box)=>{
                 if(box.isIntersecting){
                     box.target.style.opacity = 1;
+                    box.target.style.transform = translateY(0);
                 }
             })
         });

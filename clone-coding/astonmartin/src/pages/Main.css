@@ -1,0 +1,19 @@
+.content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.content-box{
+    /* position : absolute; */
+    margin-top: 55%;
+}
+.content-box > img{
+    width: 700px;
+    height: 350px;
+    z-index: -1;
+}
+.content > p h3 {
+    position: absolute;
+}

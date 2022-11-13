@@ -11,7 +11,7 @@ function Header(){
                     <a href="#">모델</a> 
                     <a href="#">서비스</a>
                 </div>
-                <img src={logo} width='150px' height='70px'></img>
+                <a href="#"><img src={logo} width='150px' height='70px'></img></a>
                 <div className='cont'>
                     <a href="#">Q 바이 애스턴마틴 </a>
                     <a href="#">뉴스</a>

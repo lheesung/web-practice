@@ -7,13 +7,17 @@
 }
 .content-box{
     /* position : absolute; */
-    margin-top: 55%;
+    color: white;
+    width: 700px;
+    height: 350px;  
+    margin-top: 60%;
 }
 .content-box > img{
+    position: relative;
     width: 700px;
     height: 350px;
     z-index: -1;
 }
-.content > p h3 {
+.content > p h3{
     position: absolute;
 }

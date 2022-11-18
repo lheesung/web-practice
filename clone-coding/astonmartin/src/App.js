@@ -1,11 +1,12 @@
 import Header from "./components/Header.js";
 import Main from "./pages/Main.js";
+import './App.css';
 function App(){
   return(
-    <>
-    <Header/>
-    <Main/>
-    </>
+    <div id='eve'>
+      <Header/>
+      <Main/>
+    </div>
   )
 }
 

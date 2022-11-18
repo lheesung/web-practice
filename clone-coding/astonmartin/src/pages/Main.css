@@ -1,4 +1,4 @@
-.content{
+/* .content{
     position: absolute;
     display: flex;
     align-items: center;
@@ -6,11 +6,11 @@
     justify-content: space-evenly;
 }
 .content-box{
-    /* position : absolute; */
+    position : absolute;
     color: white;
     width: 700px;
     height: 350px;  
-    margin-top: 60%;
+    margin-top: 6%;
 }
 .content-box > img{
     position: relative;
@@ -20,4 +20,8 @@
 }
 .content > p h3{
     position: absolute;
+} */
+
+#fuckyou{
+    height: 10000px;
 }

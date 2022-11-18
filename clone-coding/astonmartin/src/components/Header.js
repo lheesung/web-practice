@@ -1,7 +1,18 @@
 import logo from '../images/logo.svg';
 import './Header.css';
-import background1 from '../images/background1.jpeg';
+import background1 from '../images/01_DBX707.jpeg';
+import background2 from '../images/02_DB11.jpeg';
+import background3 from '../images/03_DBS.jpeg';
+import background4 from '../images/04_DBX.jpeg';
+import background5 from '../images/05_Valkyrie.jpeg';
+import background6 from '../images/06_Vantage.jpeg'
 import { useEffect, useRef } from 'react';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import {Swiper, SwiperSlide} from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 
 function Header(){
@@ -17,9 +28,19 @@ function Header(){
             }
         });
     }, []);
+    let slider = document.querySelector('#background');
+    
+
     return(
         <>
-            <img src = {background1} className="background"/>
+            <div className='slider'>
+                <img src = {background1} id="background"/>
+                <img src = {background2} id="background"/>
+                <img src = {background3} id="background"/>
+                <img src = {background4} id="background"/>
+                <img src = {background5} id="background"/>
+                <img src = {background6} id="background"/>
+            </div>
             <header className='header' ref={headerRef}>
                 <div className='cont'>
                     <a href="#">브랜드 소개</a>

@@ -28,7 +28,7 @@ a{text-decoration: none;}
 a:hover {color: white;}
 a:visited {color: white;}
 
-.background{
+#background{
     display: flex;
     justify-content: center;
     align-items: center;

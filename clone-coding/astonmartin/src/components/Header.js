@@ -28,9 +28,6 @@ function Header(){
             }
         });
     }, []);
-    let slider = document.querySelector('#background');
-    
-
     return(
         <>
             <div className='slider'>

@@ -14,7 +14,7 @@ body{
     color: white;
 }
 .animate_box:hover{
-    transform: perspective(1000px) rotateY(10deg) scale(1.5) rotateX(10deg);
+    transform: perspective(2000px) rotateY(10deg) scale(1.5) rotateX(10deg);
 }
 .container{
     width: 100%;
@@ -83,4 +83,21 @@ a:hover {
     display: flex;
     gap: 20px;
     align-items: center;
+}
+.header_hover{
+    position: absolute;
+    left: 0;
+    top: calc(100% + .25rem);
+    background-color: white;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+}
+.header > h1:focus + .header_hover{
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
 }

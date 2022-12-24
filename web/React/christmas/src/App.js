@@ -1,9 +1,8 @@
-import Bt from "./components/Bt";
-
+import Main from "./page/Main.js";
 function App() {
   return (
     <>
-    <Bt></Bt>
+    <Main></Main>
     </>
   );
 }

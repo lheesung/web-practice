@@ -40,15 +40,15 @@ function Header(){
             </div>
             <header className='header' ref={headerRef}>
                 <div className='cont'>
-                    <a href="#">브랜드 소개</a>
-                    <a href="#">모델</a> 
-                    <a href="#">서비스</a>
+                    <a href="#" className='hdel'>브랜드 소개</a>
+                    <a href="#" className='hdel'>모델</a> 
+                    <a href="#" className='hdel'>서비스</a>
                 </div>
                 <a href="#"><img src={logo} width='150px' height='70px'></img></a>
                 <div className='cont'>
-                    <a href="#">Q 바이 애스턴마틴 </a>
-                    <a href="#">뉴스</a>
-                    <a href="#">문의</a>
+                    <a href="#" className='hdel'>Q 바이 애스턴마틴 </a>
+                    <a href="#" className='hdel'>뉴스</a>
+                    <a href="#" className='hdel'>문의</a>
                 </div>
             </header>
         </>

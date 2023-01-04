@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Main from "./page/Main.js";
+import DummyList from "./components/DummyList.js";
 import "./App.css"
 function App() {
   const [randnum,setRand] = useState(0);
@@ -14,7 +15,8 @@ function App() {
   return (
     <>
     <button onClick={randbtn}>get random number</button>
-    <Main random = {randnum}/>
+    <Main random = {randnum} />
+    <DummyList />
     </>
   );
 }

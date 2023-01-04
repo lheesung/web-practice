@@ -16,9 +16,10 @@ export default function Main(props) {
       <div className="container">
         <div id="box">
           <h1>useState</h1>
-          <h1 id="name">{name}</h1>
+          <h1 id="name">{name} ({propsValue})</h1>
           <button id="btn" onClick={() => {
-            setName(name === "Jim" ? "Kevin" : "Jim");
+            setName(name === "Jim" ? "Tom" : "Jim");
+            setProps(propsValue + 1);
             }}>Change State</button>
         </div>
 

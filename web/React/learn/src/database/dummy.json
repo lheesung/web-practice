@@ -1,0 +1,26 @@
+{
+  "names": [
+    { "id": 1, "name": "One" },
+    { "id": 2, "name": "Two" },
+    { "id": 3, "name": "Three" }
+  ],
+  "nameValue": [
+    {
+      "id": 1,
+      "name": "one",
+      "kor": "하나"
+    },
+
+    {
+        "id": 2,
+        "name": "Two",
+        "kor": "둘"
+    },
+
+    {
+        "id": 3,
+        "name": "Three",
+        "kor": "셋"
+    }
+  ]
+}

@@ -16,7 +16,7 @@ function App() {
     <>
     <button onClick={randbtn}>get random number</button>
     <Main random = {randnum} />
-    <DummyList />
+    <DummyList/>
     </>
   );
 }

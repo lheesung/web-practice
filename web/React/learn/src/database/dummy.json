@@ -12,15 +12,15 @@
     },
 
     {
-        "id": 2,
-        "name": "Two",
-        "kor": "둘"
+      "id": 2,
+      "name": "Two",
+      "kor": "둘"
     },
 
     {
-        "id": 3,
-        "name": "Three",
-        "kor": "셋"
+      "id": 3,
+      "name": "Three",
+      "kor": "셋"
     }
   ]
 }

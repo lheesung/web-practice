@@ -6,8 +6,9 @@ export default function Main(props) {
   const [propsValue, setProps] = useState(props.random); // props 로 받아온 값 바꾸려면 state 하나 만들어야함.
   
   useEffect(() => {
-    console.log(name);
-  }, [name]);
+    // console.log(name);
+    alert(name);
+  },[]);
 
   console.log(props);
 

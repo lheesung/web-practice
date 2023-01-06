@@ -1,5 +1,10 @@
 {
   "dependencies": {
+    "gulp-sass": "5.1.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-is": "^16.13.1",
+    "react-router-dom": "^6.6.1",
     "styled-components": "^5.3.6",
     "swiper": "^8.4.4"
   }
